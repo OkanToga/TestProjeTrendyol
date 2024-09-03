@@ -13,7 +13,7 @@ import utils.ExtentReportManager;
         glue = "stepdef",
         plugin = {"pretty",
                   "html:target/cucumber-reports.html",
-                  "json:target/cucumber.json","summary",
+                  "json:test-reports/target/cucumber.json","summary",
                   "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         tags= "@All")
 public class runner{
